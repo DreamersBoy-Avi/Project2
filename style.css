@@ -1,0 +1,225 @@
+#navbar{background-color: rgb(55, 8, 87);
+    font-family:Bahnschrift ;
+    
+}     
+    /******* Heading ******/
+
+.nav-item{
+    font-family:  Bahnschrift;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    
+}
+.nav-item:hover{
+    color: azure;
+    background-color: rgb(55, 19, 90);
+    transition: 0.1s;
+    
+}
+.container{
+    
+}
+.card{
+    margin-left:20%;
+    margin-top: 10%;
+    text-align: center;
+    border-color:  rgb(73, 16, 127);
+    
+    
+}
+#HeadingCard{
+    background-color: rgb(73, 16, 127);
+    margin: auto;
+    
+
+}
+
+.heading{
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10% 10%;
+    text-align: center;
+    justify-content: center;
+    color: antiquewhite;
+    
+    
+}
+.h1{
+    font-size: 50px;
+}
+.span1{
+    color: transparent;
+    text-shadow: 0px 0px 6px rgb(44, 7, 79);
+    animation: blur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.span1:hover{
+    transition: 0.9s;
+    font-size: larger;
+    
+}
+@keyframes blur{
+    to {
+        color: rgb(15, 71, 174);
+        text-shadow: none;
+    }
+}
+  
+ /******* Heading ******/
+
+
+/****** Media queries *****/
+
+@media (max-width: 750px) {
+  .heading{
+    margin-left: px;
+    
+  }
+  .card{
+    
+    margin: auto;
+    margin-top: 50px;
+    left: 0px;
+    /* transform: rotate(30deg); */
+  }
+  .ctb2{
+    margin-top: 20px;
+    
+    
+}
+.reactj{
+    margin-top: 8%;
+}    
+
+}
+
+/****** Media queries *****/
+
+
+.bgtext{
+    background-color: rgb(40, 38, 38);
+    color: aliceblue;
+}
+
+/******* Content section *********/
+#content{
+    background-color: rgb(67, 11, 104);;
+}
+.ct{padding: 5% 10%;
+   
+}
+.ctb1{
+    opacity: 0.8;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    
+}
+.ctb1:hover{
+    
+    opacity: 1;
+    transition: 0.9s;
+    margin-top  : 20px;   
+    
+
+   
+}
+.ctb2{
+    font-family: Bahnschrift;    
+    opacity: 0.8;
+    font-size: 20px;
+}
+.ctb2:hover{
+    opacity: 1;
+    transition: 0.9s;
+    margin-right: 50px;
+}
+.cbtn{
+    color: aliceblue;
+    filter: blur(1px);
+    
+}  
+.cbtn2{
+    color: black;
+}  
+.cbtn:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+    filter: blur(0px);
+}
+.cbtn2:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.1s;
+}
+
+/******* Content section *********/
+
+/******* middlepage *********/
+
+#middlepage{
+    background-color:  rgb(59, 12, 103);
+}
+.mph{color: wheat;
+    font-family: Bahnschrift;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+.mpp{
+    color: aliceblue;
+    font-style: italic;
+    word-spacing: 2px;
+}
+.mpbtn{
+    margin: auto;
+}
+.mpbtn{
+    color: antiquewhite;
+}
+.mpbtn:hover{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+/******* middlepage *********/
+
+/******* FOOTER *********/
+
+#footer{
+    background-color: rgb(55, 8, 87);
+    padding: 2% 3%;
+    text-align: center;
+}
+/* span{
+    color: transparent;
+    text-shadow: 0px 0px 6px rgb(44, 7, 79);
+}
+.span:hover{
+    transition: 0.9s;
+    font-size: larger;
+} */
+i{
+    padding: 10px;
+}
+.pf{
+    color: aliceblue;
+    font-family: Arial;
+    line-height: 40px;
+}
+span{
+    color: rgb(15, 71, 174);
+    text-shadow: 0px 0px 6px rgb(44, 7, 79);
+  
+}
+span:hover{
+    transition: 0.9s;
+    font-size: larger;
+    
+}
+.fl{
+    color: rgb(15, 71, 174);
+}
